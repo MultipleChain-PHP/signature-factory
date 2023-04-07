@@ -1,0 +1,20 @@
+{
+    "name": "multiplechain/signature-factory",
+    "version": "0.1.0",
+    "description": "Signature verification for login with crypto wallets.",
+    "type": "library",
+    "license": "MIT",
+    "author": "MultipleChain",
+    "support": {
+        "issues": "https://github.com/MultipleChain/signature-factory/issues"
+    },
+    "homepage": "https://github.com/MultipleChain/signature-factory",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MultipleChain\\SignatureFactory\\" : "src"
+        }
+    }
+}
