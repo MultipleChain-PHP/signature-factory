@@ -10,6 +10,9 @@
     },
     "homepage": "https://github.com/MultipleChain/signature-factory",
     "require": {
+        "ext-mbstring": "*",
+        "ext-bcmath": "*",
+        "ext-gmp": "*",
         "php": ">=7.4"
     },
     "autoload": {
