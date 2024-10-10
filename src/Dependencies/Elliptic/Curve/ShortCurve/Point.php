@@ -81,7 +81,7 @@ class Point extends \MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\
     }
 
     //toJSON()
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         $res = array($this->x, $this->y);
 
