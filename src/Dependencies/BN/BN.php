@@ -1,9 +1,9 @@
 <?php
-namespace Beycan\SignatureFactory\Dependencies\BN;
+namespace MultipleChain\SignatureFactory\Dependencies\BN;
 
 use \JsonSerializable;
 use \Exception;
-use \Beycan\SignatureFactory\Dependencies\BI\BigInteger;
+use \MultipleChain\SignatureFactory\Dependencies\BI\BigInteger;
 
 class BN implements JsonSerializable
 {

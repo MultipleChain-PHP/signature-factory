@@ -3,7 +3,7 @@
  * @copyright Bruno Bierbaumer, Vladimir Vyatkin
  * @see https://github.com/0xbb/php-sha3
  */
-namespace Beycan\SignatureFactory\Dependencies\Keccak;
+namespace MultipleChain\SignatureFactory\Dependencies\Keccak;
 
 final class Keccak256
 {

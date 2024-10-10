@@ -1,6 +1,6 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\Curve;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve;
 
 class PresetCurve
 {

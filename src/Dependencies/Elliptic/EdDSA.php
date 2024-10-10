@@ -1,8 +1,8 @@
 <?php
-namespace Beycan\SignatureFactory\Dependencies\Elliptic;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\EdDSA\KeyPair;
-use Beycan\SignatureFactory\Dependencies\Elliptic\EdDSA\Signature;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\EdDSA\KeyPair;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\EdDSA\Signature;
 
 class EdDSA {
     
@@ -15,7 +15,7 @@ class EdDSA {
     function __construct($curve) {
         assert($curve == "ed25519"); //, 'only tested with ed25519 so far');
 
-        $curve = \Beycan\SignatureFactory\Dependencies\Elliptic\Curves::getCurve($curve)->curve;
+        $curve = \MultipleChain\SignatureFactory\Dependencies\Elliptic\Curves::getCurve($curve)->curve;
         $this->curve = $curve;
         $this->g = $curve->g;
         $this->g->precompute($curve->n->bitLength() + 1);

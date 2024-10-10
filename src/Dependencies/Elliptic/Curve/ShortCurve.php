@@ -1,10 +1,10 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\Curve;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve\Point;
-use Beycan\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve\JPoint;
-use Beycan\SignatureFactory\Dependencies\BN\BN;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve\Point;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve\JPoint;
+use MultipleChain\SignatureFactory\Dependencies\BN\BN;
 use \Exception;
 
 class ShortCurve extends BaseCurve

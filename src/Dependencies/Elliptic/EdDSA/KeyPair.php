@@ -1,13 +1,13 @@
 <?php
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\EdDSA;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\EdDSA;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Utils;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Utils;
 
 class KeyPair {
     public $eddsa;
     public $_pubBytes;
 /**
-* @param {\Beycan\SignatureFactory\Dependencies\Elliptic\EdDSA} eddsa - instance
+* @param {\MultipleChain\SignatureFactory\Dependencies\Elliptic\EdDSA} eddsa - instance
 * @param {Object} params - public/private key parameters
 *
 * @param {Array<Byte>} [params.secret] - secret seed bytes

@@ -1,9 +1,9 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\EC;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\EC;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Utils;
-use Beycan\SignatureFactory\Dependencies\BN\BN;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Utils;
+use MultipleChain\SignatureFactory\Dependencies\BN\BN;
 
 class Signature
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve;
 
-use Beycan\SignatureFactory\Dependencies\BN\BN;
+use MultipleChain\SignatureFactory\Dependencies\BN\BN;
 
-class JPoint extends \Beycan\SignatureFactory\Dependencies\Elliptic\Curve\BaseCurve\Point
+class JPoint extends \MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\BaseCurve\Point
 {
     public $x;
     public $y;

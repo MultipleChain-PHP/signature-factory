@@ -1,9 +1,9 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic;
 
 use \Exception;
-use \Beycan\SignatureFactory\Dependencies\BN\BN;
+use \MultipleChain\SignatureFactory\Dependencies\BN\BN;
 
 if (!function_exists("random_int")) {
     function random_int($a, $b) {

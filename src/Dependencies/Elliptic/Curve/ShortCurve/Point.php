@@ -1,11 +1,11 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\ShortCurve;
 
 use JsonSerializable;
-use Beycan\SignatureFactory\Dependencies\BN\BN;
+use MultipleChain\SignatureFactory\Dependencies\BN\BN;
 
-class Point extends \Beycan\SignatureFactory\Dependencies\Elliptic\Curve\BaseCurve\Point implements JsonSerializable
+class Point extends \MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\BaseCurve\Point implements JsonSerializable
 {
     public $x;
     public $y;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\Curve\BaseCurve;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\BaseCurve;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Utils;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Utils;
 
 abstract class Point
 {

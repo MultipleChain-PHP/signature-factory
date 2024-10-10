@@ -1,11 +1,11 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Curve\PresetCurve;
-use Beycan\SignatureFactory\Dependencies\Elliptic\EC\KeyPair;
-use Beycan\SignatureFactory\Dependencies\Elliptic\EC\Signature;
-use Beycan\SignatureFactory\Dependencies\BN\BN;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\PresetCurve;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\EC\KeyPair;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\EC\Signature;
+use MultipleChain\SignatureFactory\Dependencies\BN\BN;
 
 class EC
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\BI;
+namespace MultipleChain\SignatureFactory\Dependencies\BI;
 
 if (!defined("S_MATH_BIGINTEGER_MODE")) {
     if (extension_loaded("gmp")) {

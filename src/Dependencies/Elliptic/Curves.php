@@ -1,8 +1,8 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Curve\PresetCurve;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\PresetCurve;
 
 class Curves
 {

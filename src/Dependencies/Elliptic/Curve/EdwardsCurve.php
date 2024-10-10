@@ -1,8 +1,8 @@
 <?php
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\Curve;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Curve\EdwardsCurve\Point;
-use Beycan\SignatureFactory\Dependencies\BN\BN;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve\EdwardsCurve\Point;
+use MultipleChain\SignatureFactory\Dependencies\BN\BN;
 
 class EdwardsCurve extends BaseCurve
 {

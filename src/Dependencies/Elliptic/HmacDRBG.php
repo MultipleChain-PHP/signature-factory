@@ -1,6 +1,6 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic;
 
 class HmacDRBG
 {

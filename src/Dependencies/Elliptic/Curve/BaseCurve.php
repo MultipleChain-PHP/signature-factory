@@ -1,10 +1,10 @@
 <?php
 
-namespace Beycan\SignatureFactory\Dependencies\Elliptic\Curve;
+namespace MultipleChain\SignatureFactory\Dependencies\Elliptic\Curve;
 
-use Beycan\SignatureFactory\Dependencies\Elliptic\Utils;
+use MultipleChain\SignatureFactory\Dependencies\Elliptic\Utils;
 use \Exception;
-use Beycan\SignatureFactory\Dependencies\BN\BN;
+use MultipleChain\SignatureFactory\Dependencies\BN\BN;
 
 abstract class BaseCurve
 {
